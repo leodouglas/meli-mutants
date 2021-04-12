@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    appId: mutants-310221
+    gcp:
+      logging.enabled: true
+      sql:
+        instance-connection-name: mutants-310221:us-east1:mutants-db-inst
+        database-name: mutants
+  datasource:
+    username: postgres
+    password: 1234Asdf
+    hikari:
+      max-lifetime: 600000 #10 minutes wait time
+

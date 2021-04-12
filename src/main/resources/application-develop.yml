@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    appId: mutants-310221
+    gcp:
+      logging.enabled: true
+      sql:
+        instance-connection-name: mutants-310221:us-east1:mutants-db-inst
+        database-name: mutants
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/mutants
+    username: postgres
+    password: 123asd
